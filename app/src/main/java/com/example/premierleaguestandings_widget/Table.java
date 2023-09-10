@@ -1,5 +1,13 @@
 package com.example.premierleaguestandings_widget;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class Table {
     private int position;
     private Team team;
@@ -91,5 +99,8 @@ public class Table {
     public void setGoalDifference(int goalDifference) {
         this.goalDifference = goalDifference;
     }
+
+
+
 }
 

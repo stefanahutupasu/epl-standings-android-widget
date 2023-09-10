@@ -1,8 +1,8 @@
 <!-- Example widget_info.xml -->
-<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-    android:minWidth="294dp"
-    android:minHeight="294dp"
-    android:updatePeriodMillis="86400000"
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:updatePeriodMillis="10000"
     android:initialLayout="@layout/widget_layout"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen">

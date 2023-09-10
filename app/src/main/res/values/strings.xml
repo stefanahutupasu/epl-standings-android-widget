@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Premier League Standings - Widget</string>
+    <string name="position">Position</string>
+    <string name="club">Club</string>
+    <string name="pl">Pl</string>
+    <string name="w">W</string>
+    <string name="d">D</string>
+    <string name="l">L</string>
+    <string name="gd">GD</string>
+    <string name="w1">W</string>
+    <string name="pl1">Pl</string>
+    <string name="points1">Points</string>
+    <string name="gd1">GD</string>
+    <string name="l1">L</string>
+    <string name="points">Points</string>
+    <string name="_1">1</string>
+    <string name="logo">logo</string>
+    <string name="club1">Club</string>
+    <string name="d1">D</string>
 </resources>

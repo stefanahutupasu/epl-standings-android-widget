@@ -1,5 +1,13 @@
 package com.example.premierleaguestandings_widget;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class Team {
     private int id;
     private String name;
@@ -46,5 +54,8 @@ public class Team {
     public void setCrest(String crest) {
         this.crest = crest;
     }
+
+
+
 }
 
