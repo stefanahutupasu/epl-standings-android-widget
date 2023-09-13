@@ -93,11 +93,12 @@
     <LinearLayout
         android:id="@+id/row_1"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#1603A9F4">
 
         <TextView
             android:id="@+id/position_1"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -169,11 +170,12 @@
     <LinearLayout
         android:id="@+id/row_2"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#1603A9F4">
 
         <TextView
             android:id="@+id/position_2"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -245,11 +247,12 @@
     <LinearLayout
         android:id="@+id/row_3"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#1603A9F4">
 
         <TextView
             android:id="@+id/position_3"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -322,11 +325,12 @@
     <LinearLayout
         android:id="@+id/row_4"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#1603A9F4">
 
         <TextView
             android:id="@+id/position_4"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -398,11 +402,12 @@
     <LinearLayout
         android:id="@+id/row_5"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#17FFC107">
 
         <TextView
             android:id="@+id/position_5"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -478,7 +483,7 @@
 
         <TextView
             android:id="@+id/position_6"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -554,7 +559,7 @@
 
         <TextView
             android:id="@+id/position_7"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -630,7 +635,7 @@
 
         <TextView
             android:id="@+id/position_8"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -706,7 +711,7 @@
 
         <TextView
             android:id="@+id/position_9"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -782,7 +787,7 @@
 
         <TextView
             android:id="@+id/position_10"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -858,7 +863,7 @@
 
         <TextView
             android:id="@+id/position_11"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -934,7 +939,7 @@
 
         <TextView
             android:id="@+id/position_12"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1010,7 +1015,7 @@
 
         <TextView
             android:id="@+id/position_13"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1086,7 +1091,7 @@
 
         <TextView
             android:id="@+id/position_14"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1162,7 +1167,7 @@
 
         <TextView
             android:id="@+id/position_15"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1238,7 +1243,7 @@
 
         <TextView
             android:id="@+id/position_16"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1314,7 +1319,7 @@
 
         <TextView
             android:id="@+id/position_17"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1386,11 +1391,12 @@
     <LinearLayout
         android:id="@+id/row_18"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#16F44336">
 
         <TextView
             android:id="@+id/position_18"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1462,11 +1468,12 @@
     <LinearLayout
         android:id="@+id/row_19"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#16F44336">
 
         <TextView
             android:id="@+id/position_19"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
@@ -1538,11 +1545,12 @@
     <LinearLayout
         android:id="@+id/row_20"
         android:layout_width="match_parent"
-        android:layout_height="20dp">
+        android:layout_height="20dp"
+        android:background="#16F44336">
 
         <TextView
             android:id="@+id/position_20"
-            android:layout_width="67dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
             android:textAlignment="center" />
