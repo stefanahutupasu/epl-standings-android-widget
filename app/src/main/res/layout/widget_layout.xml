@@ -13,10 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 -->
-    <!--<LinearLayout
+   <!-- <LinearLayout
         android:id="@+id/header_row"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:divider="?attr/dividerVertical">
 
         <TextView
@@ -24,67 +24,76 @@
             android:layout_width="67dp"
             android:layout_height="wrap_content"
             android:text="@string/position"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_logo"
             android:layout_width="25dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_club"
-            android:layout_width="118dp"
+            android:layout_width="78dp"
             android:layout_height="wrap_content"
             android:text="@string/club"
-            android:textAlignment="textStart" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_played"
             android:layout_width="26dp"
             android:layout_height="wrap_content"
             android:text="@string/pl"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_won"
             android:layout_width="26dp"
             android:layout_height="wrap_content"
             android:text="@string/w"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_draw"
             android:layout_width="26dp"
             android:layout_height="wrap_content"
             android:text="@string/d"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_lost"
             android:layout_width="26dp"
             android:layout_height="wrap_content"
             android:text="@string/l"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_gd"
             android:layout_width="26dp"
             android:layout_height="wrap_content"
             android:text="@string/gd"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/header_points"
             android:layout_width="71dp"
             android:layout_height="wrap_content"
             android:text="@string/points"
-            android:textAlignment="center" />
-    </LinearLayout>
--->
+            android:textAlignment="center"
+            android:textSize="14sp" />
+    </LinearLayout>-->
+
     <LinearLayout
         android:id="@+id/row_1"
         android:layout_width="match_parent"
-        android:layout_height="25dp">
+        android:layout_height="20dp">
 
         <TextView
             android:id="@+id/position_1"
@@ -158,80 +167,1450 @@
     </LinearLayout>
 
     <LinearLayout
-    android:id="@+id/row_2"
-    android:layout_width="match_parent"
-    android:layout_height="25dp">
+        android:id="@+id/row_2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
 
-    <TextView
-        android:id="@+id/position_2"
-        android:layout_width="67dp"
-        android:layout_height="match_parent"
-        android:text="@string/_1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/position_2"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
 
-    <ImageView
-        android:id="@+id/logo_2"
-        android:layout_width="25dp"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/logo"
-        android:padding="2dp" />
+        <ImageView
+            android:id="@+id/logo_2"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
 
-    <TextView
-        android:id="@+id/club_2"
-        android:layout_width="78dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/club1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/club_2"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/played_2"
-        android:layout_width="26dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/pl1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/played_2"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/won_2"
-        android:layout_width="26dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/w1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/won_2"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/draw_2"
-        android:layout_width="26dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/d1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/draw_2"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/lost_2"
-        android:layout_width="26dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/l1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/lost_2"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/gd_2"
-        android:layout_width="26dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/gd1"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/gd_2"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/points_2"
-        android:layout_width="71dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/points1"
-        android:textAlignment="center" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/points_2"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_3"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_3"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_3"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_3"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_3"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_3"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_3"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_3"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_3"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row_4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_4"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_4"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_4"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_4"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_4"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_4"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_4"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_4"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_4"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_5"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_5"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_5"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_5"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_5"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_5"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_5"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_5"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_5"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_6"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_6"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_6"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_6"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_6"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_6"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_6"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_6"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_6"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_6"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_7"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_7"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_7"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_7"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_7"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_7"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_7"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_7"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_7"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_7"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_8"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_8"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_8"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_8"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_8"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_8"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_8"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_8"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_8"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_8"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_9"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_9"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_9"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_9"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_9"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_9"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_9"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_9"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_9"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_9"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_10"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_10"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_10"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_10"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_10"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_10"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_10"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_10"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_10"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_10"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_11"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_11"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_11"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_11"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_11"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_11"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_11"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_11"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_11"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_11"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_12"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_12"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_12"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_12"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_12"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_12"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_12"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_12"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_12"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_12"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_13"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_13"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_13"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_13"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_13"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_13"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_13"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_13"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_13"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_13"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_14"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_14"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_14"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_14"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_14"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_14"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_14"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_14"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_14"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_14"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_15"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_15"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_15"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_15"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_15"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_15"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_15"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_15"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_15"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_15"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_16"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_16"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_16"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_16"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_16"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_16"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_16"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_16"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_16"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_16"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_17"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_17"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_17"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_17"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_17"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_17"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_17"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_17"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_17"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_17"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_18"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_18"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_18"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_18"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_18"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_18"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_18"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_18"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_18"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_18"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_19"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_19"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_19"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_19"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_19"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_19"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_19"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_19"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_19"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_19"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_20"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/position_20"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:text="@string/_1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/logo_20"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/club_20"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/club1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/played_20"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pl1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/won_20"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/w1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/draw_20"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/d1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lost_20"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gd_20"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gd1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/points_20"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/points1"
+            android:textAlignment="center" />
+    </LinearLayout>
+
 
     <!--    </TableLayout>-->
 </LinearLayout>

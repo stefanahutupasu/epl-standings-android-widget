@@ -25,6 +25,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 import java.util.Locale;
+import java.util.Objects;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -153,7 +154,7 @@ public class MyWidgetProvider extends AppWidgetProvider {
 
     private void populateStandingsData(Context context, RemoteViews views, List<Standings> standingsList) {
         for (Standings standings : standingsList) {
-            for (int i = 0; i < 2; i++) {
+            for (int i = 0; i < 20; i++) {
                 Table table = standings.getTable().get(i);
 
 
@@ -204,6 +205,8 @@ public class MyWidgetProvider extends AppWidgetProvider {
     }
 
     private int getImageId(Context context, String imageName) {
+        if(Objects.equals(imageName, "new"))
+            imageName="new1";
         return context.getResources().getIdentifier(imageName, "drawable", context.getPackageName());
     }
 

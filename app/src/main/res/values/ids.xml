@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="widget_text" type="id" />
+    <item name="header_row" type="id" />
+    <item name="header_position" type="id" />
+    <item name="header_logo" type="id" />
+    <item name="header_club" type="id" />
+    <item name="header_played" type="id" />
+    <item name="header_won" type="id" />
+    <item name="header_draw" type="id" />
+    <item name="header_lost" type="id" />
+    <item name="header_gd" type="id" />
+    <item name="header_points" type="id" />
 </resources>
