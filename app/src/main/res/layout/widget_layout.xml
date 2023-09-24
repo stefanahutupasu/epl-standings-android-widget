@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
 
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
 
@@ -9,86 +10,118 @@
     android:backgroundTint="#FFFFFF"
     android:orientation="vertical">
 
-    <!--  <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
--->
-   <!-- <LinearLayout
+
+    <LinearLayout
         android:id="@+id/header_row"
-        android:layout_width="250dp"
-        android:layout_height="20dp"
-        android:divider="?attr/dividerVertical">
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
 
         <TextView
             android:id="@+id/header_position"
-            android:layout_width="67dp"
-            android:layout_height="wrap_content"
-            android:text="@string/position"
-            android:textAlignment="center"
-            android:textSize="14sp" />
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="Position"
 
-        <TextView
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
             android:id="@+id/header_logo"
             android:layout_width="25dp"
-            android:layout_height="wrap_content"
-            android:textSize="14sp" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:id="@+id/header_club"
             android:layout_width="78dp"
-            android:layout_height="wrap_content"
-            android:text="@string/club"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="Club"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/header_played"
             android:layout_width="26dp"
-            android:layout_height="wrap_content"
-            android:text="@string/pl"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="Pl"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/header_won"
             android:layout_width="26dp"
-            android:layout_height="wrap_content"
-            android:text="@string/w"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="W"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/header_draw"
             android:layout_width="26dp"
-            android:layout_height="wrap_content"
-            android:text="@string/d"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="D"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/header_lost"
             android:layout_width="26dp"
-            android:layout_height="wrap_content"
-            android:text="@string/l"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="L"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/header_gd"
             android:layout_width="26dp"
-            android:layout_height="wrap_content"
-            android:text="@string/gd"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="GD"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/header_points"
             android:layout_width="71dp"
-            android:layout_height="wrap_content"
-            android:text="@string/points"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="Points"
+
             android:textAlignment="center"
-            android:textSize="14sp" />
-    </LinearLayout>-->
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C3808080" />
 
     <LinearLayout
         android:id="@+id/row_1"
@@ -98,10 +131,12 @@
 
         <TextView
             android:id="@+id/position_1"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_1"
@@ -116,7 +151,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_1"
@@ -124,7 +160,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_1"
@@ -132,7 +169,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_1"
@@ -140,7 +178,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_1"
@@ -148,7 +187,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_1"
@@ -156,7 +196,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_1"
@@ -164,7 +205,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -175,10 +218,12 @@
 
         <TextView
             android:id="@+id/position_2"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_2"
@@ -193,7 +238,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_2"
@@ -201,7 +247,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_2"
@@ -209,7 +256,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_2"
@@ -225,7 +273,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_2"
@@ -233,7 +282,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_2"
@@ -241,7 +291,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -252,10 +304,12 @@
 
         <TextView
             android:id="@+id/position_3"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_3"
@@ -270,7 +324,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_3"
@@ -278,7 +333,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_3"
@@ -286,7 +342,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_3"
@@ -294,7 +351,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_3"
@@ -302,7 +360,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_3"
@@ -310,7 +369,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_3"
@@ -318,7 +378,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 
@@ -330,10 +392,12 @@
 
         <TextView
             android:id="@+id/position_4"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_4"
@@ -348,7 +412,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_4"
@@ -356,7 +421,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_4"
@@ -364,7 +430,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_4"
@@ -372,7 +439,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_4"
@@ -380,7 +448,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_4"
@@ -388,7 +457,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_4"
@@ -396,7 +466,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -407,10 +479,12 @@
 
         <TextView
             android:id="@+id/position_5"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_5"
@@ -425,7 +499,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_5"
@@ -433,7 +508,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_5"
@@ -441,7 +517,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_5"
@@ -449,7 +526,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_5"
@@ -457,7 +535,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_5"
@@ -465,7 +544,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_5"
@@ -473,7 +553,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -483,10 +565,12 @@
 
         <TextView
             android:id="@+id/position_6"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_6"
@@ -501,7 +585,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_6"
@@ -509,7 +594,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_6"
@@ -517,7 +603,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_6"
@@ -525,7 +612,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_6"
@@ -533,7 +621,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_6"
@@ -541,7 +630,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_6"
@@ -549,7 +639,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -559,10 +651,12 @@
 
         <TextView
             android:id="@+id/position_7"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_7"
@@ -577,7 +671,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_7"
@@ -585,7 +680,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_7"
@@ -593,7 +689,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_7"
@@ -601,7 +698,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_7"
@@ -617,7 +715,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_7"
@@ -625,7 +724,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -635,10 +736,12 @@
 
         <TextView
             android:id="@+id/position_8"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_8"
@@ -653,7 +756,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_8"
@@ -661,7 +765,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_8"
@@ -669,7 +774,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_8"
@@ -677,7 +783,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_8"
@@ -685,7 +792,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_8"
@@ -693,7 +801,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_8"
@@ -701,7 +810,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -711,10 +822,12 @@
 
         <TextView
             android:id="@+id/position_9"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_9"
@@ -729,7 +842,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_9"
@@ -737,7 +851,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_9"
@@ -745,7 +860,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_9"
@@ -753,7 +869,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_9"
@@ -761,7 +878,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_9"
@@ -769,7 +887,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_9"
@@ -777,7 +896,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -787,10 +908,12 @@
 
         <TextView
             android:id="@+id/position_10"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_10"
@@ -805,7 +928,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_10"
@@ -813,7 +937,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_10"
@@ -821,7 +946,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_10"
@@ -829,7 +955,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_10"
@@ -837,7 +964,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_10"
@@ -845,7 +973,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_10"
@@ -853,7 +982,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -863,10 +994,12 @@
 
         <TextView
             android:id="@+id/position_11"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_11"
@@ -881,7 +1014,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_11"
@@ -889,7 +1023,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_11"
@@ -897,7 +1032,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_11"
@@ -905,7 +1041,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_11"
@@ -913,7 +1050,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_11"
@@ -921,7 +1059,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_11"
@@ -929,7 +1068,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -939,10 +1080,12 @@
 
         <TextView
             android:id="@+id/position_12"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_12"
@@ -957,7 +1100,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_12"
@@ -965,7 +1109,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_12"
@@ -973,7 +1118,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_12"
@@ -981,7 +1127,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_12"
@@ -989,7 +1136,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_12"
@@ -997,7 +1145,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_12"
@@ -1005,7 +1154,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1015,10 +1166,12 @@
 
         <TextView
             android:id="@+id/position_13"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_13"
@@ -1033,7 +1186,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_13"
@@ -1041,7 +1195,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_13"
@@ -1049,7 +1204,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_13"
@@ -1057,7 +1213,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_13"
@@ -1065,7 +1222,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_13"
@@ -1073,7 +1231,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_13"
@@ -1081,7 +1240,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1091,10 +1252,12 @@
 
         <TextView
             android:id="@+id/position_14"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_14"
@@ -1109,7 +1272,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_14"
@@ -1117,7 +1281,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_14"
@@ -1125,7 +1290,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_14"
@@ -1133,7 +1299,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_14"
@@ -1141,7 +1308,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_14"
@@ -1149,7 +1317,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_14"
@@ -1157,7 +1326,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1167,10 +1338,12 @@
 
         <TextView
             android:id="@+id/position_15"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_15"
@@ -1185,7 +1358,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_15"
@@ -1193,7 +1367,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_15"
@@ -1201,7 +1376,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_15"
@@ -1209,7 +1385,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_15"
@@ -1217,7 +1394,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_15"
@@ -1225,7 +1403,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_15"
@@ -1233,7 +1412,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1243,10 +1424,12 @@
 
         <TextView
             android:id="@+id/position_16"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_16"
@@ -1261,7 +1444,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_16"
@@ -1269,7 +1453,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_16"
@@ -1277,7 +1462,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_16"
@@ -1285,7 +1471,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_16"
@@ -1293,7 +1480,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_16"
@@ -1301,7 +1489,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_16"
@@ -1309,7 +1498,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1319,10 +1510,12 @@
 
         <TextView
             android:id="@+id/position_17"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_17"
@@ -1337,7 +1530,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_17"
@@ -1345,7 +1539,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_17"
@@ -1353,7 +1548,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_17"
@@ -1361,7 +1557,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_17"
@@ -1369,7 +1566,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_17"
@@ -1377,7 +1575,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_17"
@@ -1385,7 +1584,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1396,10 +1597,12 @@
 
         <TextView
             android:id="@+id/position_18"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_18"
@@ -1414,7 +1617,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_18"
@@ -1422,7 +1626,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_18"
@@ -1430,7 +1635,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_18"
@@ -1438,7 +1644,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_18"
@@ -1462,7 +1669,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1473,10 +1682,12 @@
 
         <TextView
             android:id="@+id/position_19"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_19"
@@ -1491,7 +1702,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_19"
@@ -1499,7 +1711,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_19"
@@ -1507,7 +1720,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_19"
@@ -1515,7 +1729,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_19"
@@ -1523,7 +1738,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_19"
@@ -1531,7 +1747,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_19"
@@ -1539,7 +1756,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -1550,10 +1769,12 @@
 
         <TextView
             android:id="@+id/position_20"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:text="@string/_1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/logo_20"
@@ -1568,7 +1789,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/club1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/played_20"
@@ -1576,7 +1798,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/pl1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/won_20"
@@ -1584,7 +1807,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/w1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/draw_20"
@@ -1592,7 +1816,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/d1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/lost_20"
@@ -1600,7 +1825,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/l1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/gd_20"
@@ -1608,7 +1834,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gd1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/points_20"
@@ -1616,9 +1843,11 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/points1"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 
-    <!--    </TableLayout>-->
+
 </LinearLayout>
